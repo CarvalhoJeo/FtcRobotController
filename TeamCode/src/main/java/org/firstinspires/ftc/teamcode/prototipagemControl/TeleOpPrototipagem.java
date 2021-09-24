@@ -11,7 +11,7 @@ import org.firstinspires.ftc.robotcore.external.navigation.AxesReference;
 import org.firstinspires.ftc.robotcore.external.navigation.Orientation;
 
 @TeleOp(name="Teleoperado to test", group="Linear TesteOp")
-public class TeleOpPrototipagem extends LinearOpMode{
+public class  TeleOpPrototipagem extends LinearOpMode{
 
     //Instanciação de objetos
     ElapsedTime runtime = new ElapsedTime();
@@ -101,7 +101,7 @@ public class TeleOpPrototipagem extends LinearOpMode{
              * =============================================================================
              */
 
-            while (power < 1){
+            while (power < 1 && power > -1){
                 if (gamepad1.dpad_left){
                     power =- 0.1;
                 }else if(gamepad1.dpad_right){
@@ -110,6 +110,11 @@ public class TeleOpPrototipagem extends LinearOpMode{
                 if (power > 1){
                     power = 1;
                 }
+            }
+            if (power > 1){
+                power = 1;
+            }else if(power < -1){
+                power = -1;
             }
             
             /*
