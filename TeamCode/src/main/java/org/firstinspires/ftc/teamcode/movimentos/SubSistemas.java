@@ -1,7 +1,7 @@
 package org.firstinspires.ftc.teamcode.movimentos;
 
-import org.firstinspires.ftc.teamcode.AutonomoGeral;
-import org.firstinspires.ftc.teamcode.HardwareClass;
+import org.firstinspires.ftc.teamcode.UltimateGoal.AutonomoGeral;
+import org.firstinspires.ftc.teamcode.UltimateGoal.HardwareClass;
 
 /**
  * Programa que serve para se alinhar em Y (frente e trás visto da aliança vermelha)

@@ -1,4 +1,4 @@
-package prototipagemControl;
+package org.firstinspires.ftc.teamcode.prototipagemControl;
 
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;

@@ -27,7 +27,7 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-package org.firstinspires.ftc.teamcode;
+package org.firstinspires.ftc.teamcode.UltimateGoal;
 
 import com.qualcomm.robotcore.hardware.HardwareMap;
 
@@ -67,7 +67,7 @@ import static org.firstinspires.ftc.robotcore.external.navigation.VuforiaLocaliz
  * (Positive no centro, em direção a aliança azul)
  * - O eixo Z vai do chão para cima (Positivo é acima do chão)
 **/
-public class Vuforia extends TeleOperado{
+public class Vuforia extends TeleOperado {
 
     // Constantes convertidas para converter polegadas para mm
     static final float mmPerInch = 25.4f;
