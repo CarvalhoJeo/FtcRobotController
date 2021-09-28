@@ -9,7 +9,6 @@ import org.firstinspires.ftc.robotcore.external.navigation.AngleUnit;
 import org.firstinspires.ftc.robotcore.external.navigation.AxesOrder;
 import org.firstinspires.ftc.robotcore.external.navigation.AxesReference;
 import org.firstinspires.ftc.robotcore.external.navigation.Orientation;
-import org.firstinspires.ftc.teamcode.movimentos.SubSistemas;
 
 
 @TeleOp(name="Teleoperado Under Ctrl 14391", group="Linear TesteOp")

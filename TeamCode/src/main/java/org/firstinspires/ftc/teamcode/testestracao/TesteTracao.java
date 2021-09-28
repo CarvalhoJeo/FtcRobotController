@@ -6,7 +6,7 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 
 import org.firstinspires.ftc.robotcore.external.navigation.Orientation;
 import org.firstinspires.ftc.teamcode.UltimateGoal.HardwareClass;
-import org.firstinspires.ftc.teamcode.movimentos.SubSistemas;
+import org.firstinspires.ftc.teamcode.UltimateGoal.SubSistemas;
 
 
 @TeleOp(name="teste tracao", group="Linear TesteOp")
